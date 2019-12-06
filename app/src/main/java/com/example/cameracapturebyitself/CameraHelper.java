@@ -212,6 +212,7 @@ public class CameraHelper extends AppCompatActivity {
             }
         },  backgroundHandler);
         return finalImage;
+
     }
     public static File getOutputMediaFile(){
         File mediaStorageDir = new File(Environment.getExternalStoragePublicDirectory(
